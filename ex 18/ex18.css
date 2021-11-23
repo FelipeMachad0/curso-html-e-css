@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: yellowgreen;
+
+    background-color: darkgreen;
+
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid green;
+
+    padding: 10px;
+
+    margin: 20px auto 40px auto;
+
+    outline: 5px dashed forestgreen;
+}

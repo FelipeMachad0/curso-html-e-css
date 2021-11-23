@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: #96EB68;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #446B2F;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #446B2F;
+    border-radius: 5px;
+    color: white;
+}
+
+h2.basico{
+    color: #6DAB4B;
+}
+
+h2.intermediario{
+    color: #abaa4b;
+}
+h2.avancado{
+    color: #ab4b4b;
+}

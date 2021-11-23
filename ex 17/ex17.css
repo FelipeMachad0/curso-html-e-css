@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: darkgreen;
+}
+
+a:hover{
+    color: forestgreen;
+    text-decoration: underline;
+}
+
+a:active{
+    color: greenyellow;
+}
+
+.especial{
+    background-color: goldenrod;
+}
+
+.especial::after{
+    content: '⭐'
+}
+
+.especial::before{
+    content: '⭐'
+}
