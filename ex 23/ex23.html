@@ -24,6 +24,16 @@
             padding: 10px;
         }
 
+        thead, tfoot{
+            background-color: darkgray;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: darkgray;
+        }
         tbody tr:nth-child(even){
             background-color: lightgray;
         }
@@ -32,10 +42,6 @@
             background-color: rgb(250, 250, 250);
         }
 
-        thead, tfoot{
-            background-color: gray;
-            color: white;
-        }
         .num{
             text-align: right;
         }
